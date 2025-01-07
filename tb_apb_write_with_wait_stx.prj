@@ -1,0 +1,5 @@
+verilog isim_temp "apb_slave.v"
+verilog isim_temp "apb_master.v"
+verilog isim_temp "apb_bus_monitor.v"
+verilog isim_temp "tb_apb_write_with_wait.v"
+verilog isim_temp "C:/Xilinx/verilog/src/glbl.v"

@@ -1,0 +1,5 @@
+C:/Xilinx/verilog/src/glbl.v
+C:/Xilinx/apb_protocol/apb_bus_monitor.v
+C:/Xilinx/apb_protocol/apb_master.v
+C:/Xilinx/apb_protocol/apb_slave.v
+C:/Xilinx/apb_protocol/tb_apb_write_with_wait.v

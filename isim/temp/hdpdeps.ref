@@ -1,0 +1,16 @@
+V3 16
+FL $XILINX/apb_protocol/tb_apb_write_with_wait.v 2024/12/04.13:31:46 I.24
+MO isim_temp/tb_apb_write_with_wait \
+      FL $XILINX/apb_protocol/tb_apb_write_with_wait.v MI apb_bus_monitor \
+      MI apb_master     MI apb_slave
+FL $XILINX/apb_protocol/apb_slave.v 2024/12/04.13:05:36 I.24
+MO isim_temp/apb_slave  FL $XILINX/apb_protocol/apb_slave.v
+FL $XILINX/apb_protocol/apb_bus_monitor.v 2024/12/04.13:06:34 I.24
+MO isim_temp/apb_bus_monitor FL $XILINX/apb_protocol/apb_bus_monitor.v
+FL $XILINX/verilog/src/glbl.v 2005/11/16.16:04:44 I.24
+MO isim_temp/glbl       FL $XILINX/verilog/src/glbl.v
+FL $XILINX/apb_protocol/apb_master.v 2024/12/04.13:06:05 I.24
+MO isim_temp/apb_master FL $XILINX/apb_protocol/apb_master.v
+FL $XILINX/apb_protocol/tb_apb_write_no_wait.v 2024/12/04.13:39:29 I.24
+MO isim_temp/tb_apb_read_no_wait FL $XILINX/apb_protocol/tb_apb_write_no_wait.v \
+      MI apb_bus_monitor MI apb_master    MI apb_slave

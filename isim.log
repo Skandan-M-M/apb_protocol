@@ -1,0 +1,24 @@
+ command line:
+   C:\Xilinx\apb_protocol\tb_apb_read_no_wait_isim_beh.exe
+Release 8.1i - ISE Simulator Engine I.24
+Copyright (c) 1995-2005 Xilinx, Inc.  All rights reserved.
+
+Wed Dec 04 13:44:22 2024
+
+WARNING:Simulator:433 - Module apb_slave has a `timescale directive but previous
+   modules do not.
+Total Line Count = 88
+
+ Elaboration time 0 sec.
+
+ Estimate current memory usage 73.4495 Meg. 
+
+ Total signals 34
+ Total nets 245
+ Total signal drivers 28
+ Total blocks 5
+ Total primitive blocks 4
+ Total processes 26
+Sim> run 
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.

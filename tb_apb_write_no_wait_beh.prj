@@ -1,0 +1,5 @@
+verilog work "apb_slave.v"
+verilog work "apb_master.v"
+verilog work "apb_bus_monitor.v"
+verilog work "tb_apb_write_no_wait.v"
+verilog work "C:/Xilinx/verilog/src/glbl.v"

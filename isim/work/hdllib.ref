@@ -1,0 +1,7 @@
+MO tb_apb_write_no_wait NULL C:\Xilinx\apb_protocol/tb_apb_write_no_wait.v vlg6A/tb__apb__write__no__wait.bin 1733298170
+MO tb_apb_read_no_wait NULL C:\Xilinx\apb_protocol/tb_apb_write_no_wait.v vlg33/tb__apb__read__no__wait.bin 1733299780
+MO apb_bus_monitor NULL C:\Xilinx\apb_protocol/apb_bus_monitor.v vlg53/apb__bus__monitor.bin 1733297845
+MO glbl NULL C:/Xilinx/verilog/src/glbl.v vlg2D/glbl.bin 1733297845
+MO apb_master NULL C:\Xilinx\apb_protocol/apb_master.v vlg0E/apb__master.bin 1733297845
+MO apb_slave NULL C:\Xilinx\apb_protocol/apb_slave.v vlg39/apb__slave.bin 1733297845
+MO tb_apb_write_with_wait NULL C:\Xilinx\apb_protocol/tb_apb_write_with_wait.v vlg71/tb__apb__write__with__wait.bin 1733299312
