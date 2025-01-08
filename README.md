@@ -55,8 +55,7 @@ The APB protocol operates through three states:
 2. **SETUP**: Signals are initialized to begin a transaction.
 3. **ENABLE**: Data transfer occurs, followed by a return to IDLE if no further transfers are needed.
 
-![State Diagram](![image](https://github.com/user-attachments/assets/7713d7bc-a52e-4ede-98d4-f1b48631fa48)
-)
+![State Diagram](images/state_diagram.png "State Diagram of APB Protocol")
 
 ### APB Read and Write Operations
 #### Write Operation
@@ -85,15 +84,18 @@ Four distinct test cases were simulated to validate the design:
 4. **Read With Wait**: Waits for slave readiness before completing the read operation.
 
 ### Results
-1. **Waveforms**:
-    - **Write Without Wait**: ![Write Without Wait](![image](https://github.com/user-attachments/assets/57153d8a-b2d0-4d7b-b309-31dfb9ab419b)
-)
-    - **Write With Wait**: ![Write With Wait](![image](https://github.com/user-attachments/assets/39d8c34d-d8ec-4942-9280-21161c253632)
-)
-    - **Read Without Wait**: ![Read Without Wait](![image](https://github.com/user-attachments/assets/33bca022-117f-4346-ba69-df6d7b5f3d82)
-)
-    - **Read With Wait**: ![Read With Wait](![image](https://github.com/user-attachments/assets/e1e903f7-a53a-4a9e-8aaf-950cb338d57f)
-)
+
+### Write Operation Without Wait
+![Write Without Wait](images/waveform_write_no_wait.png "Waveform for Write Without Wait")
+
+### Write Operation With Wait
+![Write With Wait](images/waveform_write_with_wait.png "Waveform for Write With Wait")
+
+### Read Operation Without Wait
+![Read Without Wait](images/waveform_read_no_wait.png "Waveform for Read Without Wait")
+
+### Read Operation With Wait
+![Read With Wait](images/waveform_read_with_wait.png "Waveform for Read With Wait")
 
 The simulations confirmed successful data transfer, with correct address decoding and data synchronization.
 
