@@ -9,10 +9,10 @@
     - [APB Read and Write Operations](#apb-read-and-write-operations)
     - [APB Interface with Slaves](#apb-interface-with-slaves)
 5. [Simulation and Results](#simulation-and-results)
-    - [Write Without Wait](#write-without-wait)
-    - [Write With Wait](#write-with-wait)
-    - [Read Without Wait](#read-without-wait)
-    - [Read With Wait](#read-with-wait)
+    - [Write Without Wait](#write-operation-without-wait)
+    - [Write With Wait](#write-operation-with-wait)
+    - [Read Without Wait](#read-operation-without-wait)
+    - [Read With Wait](#read-operation-with-wait)
 6. [Conclusion and Future Scope](#conclusion-and-future-scope)
 7. [References](#references)
 
@@ -20,6 +20,8 @@
 
 ## Introduction
 The Advanced Microcontroller Bus Architecture (AMBA) is a widely used on-chip communication standard for System-on-Chip (SoC) designs. The **Advanced Peripheral Bus (APB)** is an integral component optimized for low bandwidth, low-power, and cost-effective communication with peripherals such as UARTs, timers, and keypads.
+
+![AMBA Architecture](images/amba_arch.png "AMBA Architecture Diagram")
 
 This project focuses on designing and implementing the APB protocol using **Verilog HDL** while ensuring compliance and functionality through rigorous simulation and testing.
 
@@ -86,13 +88,13 @@ Four distinct test cases were simulated to validate the design:
 ### Results
 
 ### Write Operation Without Wait
-![Write Without Wait](images/waveform_write_no_wait.png "Waveform for Write Without Wait")
+![Write Without Wait](images/waveform_write_with_no_wait.png "Waveform for Write Without Wait")
 
 ### Write Operation With Wait
 ![Write With Wait](images/waveform_write_with_wait.png "Waveform for Write With Wait")
 
 ### Read Operation Without Wait
-![Read Without Wait](images/waveform_read_no_wait.png "Waveform for Read Without Wait")
+![Read Without Wait](images/waveform_read_with_no_wait.png "Waveform for Read Without Wait")
 
 ### Read Operation With Wait
 ![Read With Wait](images/waveform_read_with_wait.png "Waveform for Read With Wait")
